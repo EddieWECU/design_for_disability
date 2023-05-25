@@ -1,0 +1,216 @@
+/* Author: Eddie Wang
+Date: 4/5/2023
+Version: 1.0
+*/
+
+/*
+COLOURS
+#ffffff White
+#000000 Black
+#737373 Gray
+#0088ff Light Blue
+#0033ff Dark Blue
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    min-height: 100vh
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+    background-color: #0033ff;
+    display: flex;
+    color: #ffffff;
+    height: 80px;
+    justify-content: left;
+}
+
+header img {
+    padding: 20px;
+    z-index: 999;
+}
+
+
+/* NAVIGATION
+----------------------------------------
+*/
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    padding: 30px 20px 24px 20px;
+    height: 100px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 0px 0px 1px;
+    border-style: solid;
+    border-color: #0033ff;
+}
+
+nav a:hover {
+    background-color: #1E1E1E;
+    background-image: linear-gradient(#0033ff, #0033ff, #0033ff, #0088ff);
+    border: 0px 0px 1px;
+    border-style: solid;
+    border-color: #0088ff;
+}
+
+nav ul {
+    margin: 30px 0px;
+    padding: 0px;
+    color: #ffffff;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+nav li {
+    display: inline;
+    padding: 0px;
+}
+
+nav span {
+    background-color: #1E1E1E;
+    background-image: linear-gradient(#0033ff, #0033ff, #0033ff, #0088ff);
+    border: 0px 0px 1px;
+    border-style: solid;
+    border-color: #0088ff;
+    padding: 30px 20px 24px 20px;
+    height: 100px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* CONTENT 1
+----------------------------------------
+*/
+#banner {
+    box-shadow: 0px 4px 8px 0px #000000;
+}
+
+article {
+    padding: 0px 10px 0px 10px;
+}
+
+.sidebar {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+}
+
+.sidebar aside {
+    margin: 5px;
+    padding: 5px;
+    background-color: #0033ff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.accessibility section {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.accessibility img {
+    padding: 0px 5px;
+}
+
+.image_box a {
+    font-size: 0.8em;
+    color: #737373;
+    text-decoration: none;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.images img {
+    padding: 0px 5px;
+}
+
+.about section {
+    display: flex;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.about li {
+    padding: 2px 0px;
+}
+
+.about img {
+    padding: 10px 5px;
+}
+
+/* FOOTER
+----------------------------------------
+*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    border-top: 1px;
+    border-top-style: solid;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+footer ul {
+    color: #000000;
+    list-style: none;
+    padding: 0px;
+    font-size: 0.8em;
+}
+
+footer li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+footer ul a {
+    color: #000000;
+}
