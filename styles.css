@@ -15,8 +15,11 @@ COLOURS
 /*GLOBAL SETTING
 ----------------------------------------
 */
+
+/* imports the font */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 
+/* sets the global font settings */
 body {
     font-size: 16px;
     font-weight: 300;
@@ -24,6 +27,7 @@ body {
     margin: 0;
 }
 
+/* wrapper settings, min-height sets the minimum height to be at least the entire view height */
 .wrapper {
     background-color: #ffffff;
     position: relative;
@@ -33,6 +37,7 @@ body {
     min-height: 100vh
 }
 
+/* adds padding to the bottom for the footer */
 main {
     padding-bottom: 50px;
 }
@@ -188,6 +193,8 @@ article {
 /* FOOTER
 ----------------------------------------
 */
+
+/* position absolute forces the footer to the bottom of the screen */
 footer {
     position: absolute;
     bottom: 0;
